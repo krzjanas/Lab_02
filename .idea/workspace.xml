@@ -5,23 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="b48fc173-b863-4ef3-a4d8-01aafcf6888b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Echo/test_echoGameServer.py" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echo/EchoClient.py" afterPath="$PROJECT_DIR$/Echo/EchoClient.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echo/EchoServer.py" afterPath="$PROJECT_DIR$/Echo/EchoServer.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echo/GameList.py" afterPath="$PROJECT_DIR$/Echo/GameList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echo/MessageHandler.py" afterPath="$PROJECT_DIR$/Echo/MessageHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echo/Test/test_gameList.py" afterPath="$PROJECT_DIR$/Echo/Test/test_gameList.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Echo/Test/test_messageHandler.py" afterPath="$PROJECT_DIR$/Echo/Test/test_messageHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game_TTT/TTT_Client.py" afterPath="$PROJECT_DIR$/Game_TTT/TTT_Client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game_TTT/TTT_MessageHandler.py" afterPath="$PROJECT_DIR$/Game_TTT/TTT_MessageHandler.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Game_TTT/TTT_Server.py" afterPath="$PROJECT_DIR$/Game_TTT/TTT_Server.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoreOrLess/MOL_Client.py" afterPath="$PROJECT_DIR$/MoreOrLess/MOL_Client.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/MoreOrLess/MOL_Server.py" afterPath="$PROJECT_DIR$/MoreOrLess/MOL_Server.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TickTackToo/Test/test_tickTackToo.py" afterPath="$PROJECT_DIR$/TickTackToo/Test/test_tickTackToo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TickTackToo/Test/test_tickTackTooStage.py" afterPath="$PROJECT_DIR$/TickTackToo/Test/test_tickTackTooStage.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TickTackToo/TickTackToo.py" afterPath="$PROJECT_DIR$/TickTackToo/TickTackToo.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TickTackToo/TickTackTooStage.py" afterPath="$PROJECT_DIR$/TickTackToo/TickTackTooStage.py" />
     </list>
     <ignored path="Lab_02.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -587,6 +571,13 @@
       <option name="number" value="Default" />
       <updated>1448275256311</updated>
     </task>
+    <task id="LOCAL-00001" summary="&quot;Beta Version&quot;">
+      <created>1453325712874</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1453325712874</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -625,6 +616,7 @@
     <frame x="65" y="24" width="1535" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -654,6 +646,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="&quot;Beta Version&quot;" />
+    <option name="LAST_COMMIT_MESSAGE" value="&quot;Beta Version&quot;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

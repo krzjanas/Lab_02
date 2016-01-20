@@ -1,10 +1,10 @@
 from unittest import TestCase
 
-import TickTackTooStage
+from TickTackToo.TickTackTooStage import TickTackTooStage
 
 class TestTickTackTooStage(TestCase):
   def test_clear(self):
-    tttS = TickTackTooStage.TickTackTooStage()
+    tttS = TickTackTooStage()
     tttS.setStage("001021020")
     tttS.setX("C3")
     self.assertEqual(tttS.stage[11][23],'X')
@@ -12,7 +12,7 @@ class TestTickTackTooStage(TestCase):
     self.assertEqual(tttS.stage[11][23],' ')
 
   def test_setWinLine(self):
-    tttS = TickTackTooStage.TickTackTooStage()
+    tttS = TickTackTooStage()
     tttS.setStage("222020202")
     self.assertEqual(tttS.stage[3][3],"|")
     tttS.setWinLine(1)
@@ -29,7 +29,7 @@ class TestTickTackTooStage(TestCase):
     self.assertEqual(tttS.stage[2][4],"#")
 
   def test_setX(self):
-    tttS = TickTackTooStage.TickTackTooStage()
+    tttS = TickTackTooStage()
     self.assertEqual(tttS.stage[6][14],' ')
     tttS.setX("B2")
     self.assertEqual(tttS.stage[6][14],'\\')
@@ -39,7 +39,7 @@ class TestTickTackTooStage(TestCase):
     self.assertRaises(KeyError,tttS.setO,"aaaa")
 
   def test_setO(self):
-    tttS = TickTackTooStage.TickTackTooStage()
+    tttS = TickTackTooStage()
     self.assertEqual(tttS.stage[6][13],' ')
     tttS.setO("B2")
     self.assertEqual(tttS.stage[6][13],',')
@@ -49,7 +49,7 @@ class TestTickTackTooStage(TestCase):
     self.assertRaises(KeyError,tttS.setO,"aaaa")
 
   def test_setStage(self):
-    tttS = TickTackTooStage.TickTackTooStage()
+    tttS = TickTackTooStage()
 
     codeStage = "201120122"
     for i in range(9):

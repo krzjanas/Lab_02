@@ -1,4 +1,4 @@
-from TickTackToo import getCoordinate
+from TickTackToo.TickTackToo import getCoordinate
 
 class TickTackTooStage:
 
@@ -68,6 +68,7 @@ class TickTackTooStage:
 
 
     def setStage(self,codeStage):
+        print("<%s>"%codeStage)
         if not isinstance(codeStage,str):
             raise TypeError
         if len(codeStage) != 9:

@@ -19,7 +19,7 @@ class TickTackToo:
 
     def clear(self):
         self.cells = [[0,0,0],[0,0,0],[0,0,0]]
-        self.last = None
+        self.last = 'O'
 
 #throws:
     # MemoryError -> You use two indentical options in raw
@@ -50,6 +50,16 @@ class TickTackToo:
                 return (ch,8)
 
         return (0,0)
+
+    def checkDraw(self):
+        for i in range(3):
+            for j in range(3):
+                if not self.cells[i][j]:
+                    return False
+        if self.checkWin()[0]:
+            return False
+        else:
+            return True
 
     def _setVal(self,code,charakter):
         if self.last == charakter:
@@ -87,3 +97,15 @@ class TickTackToo:
             self.cells[raw][column] = 1
         elif(character == 'O'):
             self.cells[raw][column] = 2
+
+    def getStage(self):
+        codeStage = ''
+        for i in range(3):
+            for j in range(3):
+                if self.cells[i][j] == 1:
+                    codeStage = codeStage+'1'
+                elif self.cells[i][j] == 2:
+                    codeStage = codeStage+'2'
+                else:
+                    codeStage = codeStage+'0'
+        return codeStage

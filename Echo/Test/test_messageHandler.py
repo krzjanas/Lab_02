@@ -1,5 +1,5 @@
 from unittest import TestCase
-from MessageHandler import MessageHandler
+from Echo.MessageHandler import MessageHandler
 
 
 
